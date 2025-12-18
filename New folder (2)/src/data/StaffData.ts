@@ -22,6 +22,6 @@ export const staffData: StaffCategory[] = [
         description: "Overseeing all server operations and development direction.",
         customImage: "https://i.imgur.com/IwLa5S0.png"
       },
-    ]
+    ],
   },
 ];
