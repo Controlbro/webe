@@ -69,7 +69,7 @@ export default function Hero() {
                   icon={<div className="w-6 h-6 text-white"><DiscordIcon /></div>}
                   iconPosition="after"
                 >
-                  Join to Discord
+                  Join the Discord
                 </Button>
 
               </div>
