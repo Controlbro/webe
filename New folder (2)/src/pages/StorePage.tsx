@@ -14,7 +14,7 @@ export default function StorePage() {
   // Menu Items Config
   const menuItems = [
     { id: 'ranks', label: 'Ranks', icon: Crown },
-    { id: 'keys', label: 'Other', icon: Key },
+    { id: 'keys', label: 'Other', icon: Box },
   ];
 
   return (
