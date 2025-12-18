@@ -43,7 +43,7 @@ export default function Navbar() {
           </button>
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
             <a href="#" className="block font-bold text-3xl tracking-tight text-[#0F172A] hover:opacity-80 transition-opacity">
-              Moonveil
+              TBFMC
             </a>
           </div>
           <a
