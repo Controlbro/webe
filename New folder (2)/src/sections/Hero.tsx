@@ -8,7 +8,7 @@ import DiscordIcon from '../components/icons/Discord';
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
-  const ip = "play.moonveil.net"; 
+  const ip = "mc.tbfmc.com"; 
 
   const handleCopy = () => {
     navigator.clipboard.writeText(ip);
@@ -32,17 +32,17 @@ export default function Hero() {
             
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 rounded-full text-orange-700 font-bold text-sm tracking-wide transform -rotate-1 hover:rotate-0 transition-transform cursor-default border border-orange-200">
               <span>🚀</span>
-              <span>SEASON 5 IS LIVE!</span>
+              <span>SEASON 2 IS LIVE!</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-navy leading-[0.9]">
-              Moon<span className="text-transparent bg-clip-text bg-gradient-to-br from-[#F59E0B] to-orange-600">veil</span>
+              TBF<span className="text-transparent bg-clip-text bg-gradient-to-br from-[#F59E0B] to-orange-600">MC</span>
               <br />
-              <span className="text-4xl md:text-5xl text-navy-light opacity-80">Ultimate Survival</span>
+              <span className="text-4xl md:text-5xl text-navy-light opacity-80">Vanilla Survival</span>
             </h1>
 
             <p className="text-lg text-slate-600 w-full md:max-w-xl font-sans font-medium leading-relaxed">
-              Experience a survival world with a balanced economy, friendly community, and custom features. 
+              Experience a vanilla survival world with a friendly community. 
               <span className="font-bold text-navy"> Join the adventure now!</span>
             </p>
 
@@ -57,11 +57,11 @@ export default function Hero() {
                   icon={copied ? <Check size={20} className="text-green-400"/> : <Copy size={20}/>}
                   iconPosition="before"
                 >
-                  {copied ? "IP COPIED!" : "PLAY.MOONVEIL.NET"}
+                  {copied ? "IP COPIED!" : "MC.TBFMC.COM"}
                 </Button>
 
                 <Button 
-                  href="https://discord.gg/moonveil"
+                  href="https://discord.gg/vSajqg6ChK"
                   target="_blank"
                   variant="secondary"
                   size="lg"
