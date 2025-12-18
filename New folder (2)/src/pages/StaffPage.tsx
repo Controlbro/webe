@@ -25,7 +25,7 @@ export default function StaffPage() {
                 Meet the <span className="text-[var(--color-gold-500)]">Staff</span>
             </h1>
             <p className="text-lg text-slate-500 font-sans max-w-2xl mx-auto leading-relaxed">
-                The dedicated team behind Moonveil who work hard to keep the server running, fair, and fun for everyone.
+                The dedicated team behind TBFMC who work hard to keep the server running, fair, and fun for everyone.
             </p>
          </div>
       </div>
