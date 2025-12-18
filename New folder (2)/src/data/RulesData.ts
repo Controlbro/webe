@@ -47,10 +47,7 @@ export const rulesData = [
     color: "text-orange-600",
     bg: "bg-orange-50",
     rules: [
-      "Griefing is strictly PROHIBITED on Survival Earth & Creative servers.",
-      "Griefing and Raiding are ALLOWED on Donut SMP & Anarchy servers.",
-      "Stealing from unclaimed chests is considered the owner's risk.",
-      "TP-Trapping (Teleporting and killing) is disabled/banned on Survival."
+      "Griefing is strictly PROHIBITED on all servers.",
     ]
   },
   {
@@ -61,7 +58,7 @@ export const rulesData = [
     bg: "bg-cyan-50",
     rules: [
       "Allowed: Optifine, Sodium, Minimap (No Entity Radar), Litematica (Printer OFF).",
-      "Disallowed: X-Ray Texture Packs, Freecam, Auto-Clicker, Baritone, Killaura.",
+      "Disallowed: X-Ray Texture Packs, Freecam, Baritone, Killaura.",
       "Using hardware macros (Mouse/Keyboard macros) for PvP is considered cheating."
     ]
   },
