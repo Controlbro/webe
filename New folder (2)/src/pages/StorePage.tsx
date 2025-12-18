@@ -35,7 +35,7 @@ export default function StorePage() {
                     Server <span className="text-[var(--color-gold-500)]">Store</span>
                 </h1>
                 <p className="text-slate-500 font-sans text-lg">
-                    Support the server and get awesome rewards!
+                    Support the server and get unique perks!
                 </p>
             </div>
             
@@ -90,7 +90,7 @@ export default function StorePage() {
                     {/* Sale Banner */}
                     <div className="mt-8 p-4 bg-orange-50 rounded-xl border border-orange-100 text-center">
                         <div className="text-xs font-bold text-orange-400 uppercase tracking-widest mb-1">Active Sale</div>
-                        <div className="text-xl font-bold text-orange-600">20% OFF</div>
+                        <div className="text-xl font-bold text-orange-600">40% OFF</div>
                         <div className="text-xs text-slate-500 font-sans mt-1">For all store items</div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ export default function StorePage() {
                 <div className="mb-8 flex items-center gap-4">
                     <div className="h-8 w-1 bg-[var(--color-gold-500)] rounded-full"></div>
                     <h2 className="text-3xl font-bold text-[var(--color-navy-900)] capitalize">
-                        {activeCategory === 'ranks' ? 'Server Ranks' : 'Crate Keys'}
+                        {activeCategory === 'ranks' ? 'Server Ranks' : 'Other'}
                     </h2>
                 </div>
 
@@ -181,7 +181,7 @@ export default function StorePage() {
                                 </p>
 
                                 <Button variant="primary" size="sm" className="w-full">
-                                    Buy Now
+                                    View all
                                 </Button>
                             </div>
                         </div>
