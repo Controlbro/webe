@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 md:gap-8 mb-16">
           <div className="max-w-xs">
             <div className="text-3xl font-bold text-[var(--color-navy-900)] tracking-tight mb-4">
-              Moonveil
+              TBFMC
             </div>
             <p className="text-slate-500 font-sans text-sm leading-relaxed">
               The ultimate Minecraft survival experience. Join our community, build your empire, and conquer the world without limits.
@@ -41,12 +41,10 @@ export default function Footer() {
         <div className="pt-8 border-t border-[var(--color-navy-900)]/5 flex flex-col-reverse md:flex-row justify-between items-center gap-6">
           
           <div className="text-slate-400 font-sans text-sm font-medium text-center md:text-left">
-            © 2025 Moonveil Network. All rights reserved.
+            © 2025 TBFMC. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
-            <SocialLink href="https://twitter.com/moonveil" icon={<XIcon />} label="Twitter/X" />
-            <SocialLink href="https://youtube.com/moonveil" icon={<YoutubeIcon />} label="YouTube" />
-            <SocialLink href="https://discord.gg/moonveil" icon={<DiscordIcon />} label="Discord" />
+            <SocialLink href="https://discord.gg/vSajqg6ChK" icon={<DiscordIcon />} label="Discord" />
           </div>
 
         </div>
