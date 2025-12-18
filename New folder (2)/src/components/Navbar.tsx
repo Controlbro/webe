@@ -22,6 +22,7 @@ export default function Navbar() {
 
   const menuLinks = [
     { name: 'Home', href: '/' },
+    { name: 'Map', href: 'http://194.153.216.79:25961' },
     { name: 'Rules', href: '/rules' },
     { name: 'Store', href: '/store' },
     { name: 'Staff', href: '/staff' },
@@ -46,7 +47,7 @@ export default function Navbar() {
             </a>
           </div>
           <a
-            href="https://discord.gg/moonveil"
+            href="https://discord.gg/vSajqg6ChK"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 -mr-2 text-[#0F172A] hover:text-[#5865F2] hover:bg-[#5865F2]/10 rounded-lg transition-all"
@@ -76,9 +77,7 @@ export default function Navbar() {
               ))}
             </div>
             <div className="mt-4 pt-4 border-t border-gray-100 px-4 pb-2 flex gap-4 justify-center">
-               <a href="#" className="text-gray-400 hover:text-[#5865F2] transition-colors"><div className="w-5 h-5"><DiscordIcon/></div></a>
-               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors"><div className="w-5 h-5"><YoutubeIcon/></div></a>
-               <a href="#" className="text-gray-400 hover:text-black transition-colors"><div className="w-5 h-5"><XIcon/></div></a>
+               <a href="http://194.153.216.79:25961" className="text-gray-400 hover:text-[#5865F2] transition-colors"><div className="w-5 h-5"><DiscordIcon/></div></a>
             </div>
           </div>
 
