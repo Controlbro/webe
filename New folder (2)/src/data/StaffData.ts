@@ -20,7 +20,7 @@ export const staffData: StaffCategory[] = [
         name: "CBYT",
         role: "Founder & Owner",
         description: "Overseeing all server operations and development direction.",
-        customImage: "https://i.imgur.com/IwLa5S0.png"
+        customImage: "https://media.discordapp.net/attachments/1399519570133254258/1451349355062890547/mcpfp_-_CBYT.png?ex=6945d9eb&is=6944886b&hm=369153ea87ac0744388763b9dffc6eeb39aee0d06f28a88d34b80ca4b3b1b54f&=&format=webp&quality=lossless"
       },
     ],
   },
