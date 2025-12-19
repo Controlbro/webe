@@ -26,6 +26,7 @@ export default function Navbar() {
     { name: 'Rules', href: '/rules' },
     { name: 'Store', href: '/store' },
     { name: 'Staff', href: '/staff' },
+    { name: 'Players', href: '/players' },
     { name: 'Vote', href: '/vote' },
     { name: 'FAQ', href: '/faq' },
   ];
