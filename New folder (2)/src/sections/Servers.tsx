@@ -9,7 +9,7 @@ import { Globe, Cloud, Skull, Palette } from 'lucide-react';
 const servers = [
   {
     name: "Survival",
-    description: "Experience classic vanilla Survival gameplay with Laim Claim, No TP, and a Webmap!",
+    description: "Whitelisted vanilla Survival gameplay with Land Claim, No TP, and a Webmap!",
     image: survivalImage,
     icon: <Globe className="w-6 h-6 text-[var(--color-gold-500)]" />,
     players: 1240,
@@ -39,7 +39,7 @@ export default function Servers() {
             Choose Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-gold-500)] to-orange-600">Adventure</span>
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg">
-            We offer unique and exciting game modes for every type of player. Find your favorite way to play!
+            We offer whitelisted, exciting game modes for every type of player. Find your favorite way to play!
           </p>
         </div>
 

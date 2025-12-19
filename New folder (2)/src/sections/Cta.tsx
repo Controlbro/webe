@@ -64,7 +64,7 @@ export default function Cta() {
 
             {/* DESCRIPTION */}
             <p className="text-slate-500 font-sans text-lg max-w-lg mx-auto mb-10 leading-relaxed">
-                Join TBFMC today and experience Minecraft Vanilla survival like never before. 
+                Join TBFMC today and experience whitelisted Minecraft Vanilla survival like never before.
                 Build, trade, and conquer in a world without limits.
             </p>
 

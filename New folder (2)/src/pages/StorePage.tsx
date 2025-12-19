@@ -35,7 +35,7 @@ export default function StorePage() {
                     Server <span className="text-[var(--color-gold-500)]">Store</span>
                 </h1>
                 <p className="text-slate-500 font-sans text-lg">
-                    Support the server and get unique perks!
+                    Support the whitelisted server and get unique perks!
                 </p>
             </div>
             

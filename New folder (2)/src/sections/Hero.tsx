@@ -1,11 +1,9 @@
 import { useState } from 'react';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, FileText } from 'lucide-react';
 
 import Button from '../components/ui/Button';
 import heroImage from '../assets/hero.webp';
 import arrowSvg from '../assets/arrowup.svg';
-import DiscordIcon from '../components/icons/Discord'; 
-
 export default function Hero() {
   const [copied, setCopied] = useState(false);
   const ip = "mc.tbfmc.com"; 
@@ -42,8 +40,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-slate-600 w-full md:max-w-xl font-sans font-medium leading-relaxed">
-              Experience a vanilla survival world with a friendly community. 
-              <span className="font-bold text-navy"> Join the adventure now!</span>
+              Experience a whitelisted vanilla survival world with a friendly community.
+              <span className="font-bold text-navy"> Apply to join the adventure!</span>
             </p>
 
             <div className="relative pt-2 w-full md:w-auto">
@@ -61,15 +59,14 @@ export default function Hero() {
                 </Button>
 
                 <Button 
-                  href="https://discord.gg/vSajqg6ChK"
-                  target="_blank"
+                  href="/whitelist"
                   variant="secondary"
                   size="lg"
-                  className="w-full sm:w-auto min-w-[160px] shrink-0"
-                  icon={<div className="w-6 h-6 text-white"><DiscordIcon /></div>}
+                  className="w-full sm:w-auto min-w-[180px] shrink-0"
+                  icon={<FileText size={20} className="text-white" />}
                   iconPosition="after"
                 >
-                  Join the Discord
+                  Apply to Join
                 </Button>
 
               </div>
