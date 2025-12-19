@@ -146,16 +146,16 @@ export default function StorePage() {
                                     ))}
                                 </ul>
 
-<Button
-  variant="primary"
-  size="sm"
-  className="w-full"
-  onClick={() => {
-    window.location.href = 'https://store.tbfmc.com';
-  }}
->
-  Add to Cart
-</Button>
+                                <Button
+                                  variant="primary"
+                                  size="sm"
+                                  className="w-full"
+                                  onClick={() => {
+                                    window.open(item.url, '_blank', 'noopener,noreferrer');
+                                  }}
+                                >
+                                  Add to Cart
+                                </Button>
                             </div>
                         </div>
                     ))}

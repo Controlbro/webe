@@ -9,6 +9,7 @@ export const rankData = [
     name: 'Coal Rank',
     price: 5.00,
     image: rankSilver,
+    url: 'https://store.tbfmc.com/product/coal-rank',
     features: [
       'Prefix [Coal] in chat',
       'White chat color'
@@ -19,6 +20,7 @@ export const rankData = [
     name: 'Gold Rank',
     price: 10.00,
     image: rankGold,
+    url: 'https://store.tbfmc.com/product/gold-rank',
     features: [
       'Prefix [Gold] in chat',
       'Yellow chat color'
@@ -30,6 +32,7 @@ export const rankData = [
     name: 'Diamond Rank',
     price: 15.00,
     image: rankDiamond,
+    url: 'https://store.tbfmc.com/product/diamond-rank',
     features: [
       'Prefix [Diamond] in chat',
       'Blue chat color'
