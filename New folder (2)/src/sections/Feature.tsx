@@ -16,15 +16,15 @@ const features = [
   {
     icon: ShoppingBag,
     title: 'No P2W',
-    description: 'No webstore so you wont have to worry about P2W!',
+    description: 'All of our purchasables grant no gameplay advantages and are purely cosmetic.',
     image: feature2,
     color: "text-blue-600",
     gradient: "from-blue-200 to-blue-100"
   },
   {
     icon: Users,
-    title: 'Land Claim',
-    description: 'Create claims and invite others!',
+    title: 'Whitelisted',
+    description: 'Worry not about trolls and griefers; we aim to add only the most eligible players for the best possible experience.',
     image: feature4,
     color: "text-orange-600",
     gradient: "from-orange-200 to-orange-100"

@@ -5,6 +5,8 @@ import StorePage from './pages/StorePage';
 import StaffPage from './pages/StaffPage';
 import VotePage from './pages/VotePage';
 import FaqPage from './pages/FaqPage';
+import PlayersPage from './pages/PlayersPage';
+import WhitelistPage from './pages/WhitelistPage';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/staff" element={<StaffPage />} />
         <Route path="/vote" element={<VotePage />} />
         <Route path="/faq" element={<FaqPage />} />
+        <Route path="/players" element={<PlayersPage />} />
+        <Route path="/whitelist" element={<WhitelistPage />} />
       </Routes>
     </div>
   );

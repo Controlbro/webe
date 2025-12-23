@@ -70,7 +70,7 @@ export default function Cta() {
 
             {/* GET STARTED BUTTON */}
             <a 
-                href="https://play.moonveil.net" 
+                href="https://mc.tbfmc.com" 
                 className="group relative flex w-full max-w-2xl mx-auto items-center justify-between gap-5 overflow-hidden rounded-2xl px-8 py-6 sm:px-12 sm:py-8 bg-gradient-to-br from-[#FFEDE3] to-[#FFEBCC] hover:ring-4 hover:ring-orange-100 transition-all duration-300 shadow-xl shadow-orange-100/50"
             >
                 {/* Text */}

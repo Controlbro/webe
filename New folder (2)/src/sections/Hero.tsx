@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, FileText } from 'lucide-react';
 
 import Button from '../components/ui/Button';
 import heroImage from '../assets/hero.webp';
@@ -60,15 +60,14 @@ export default function Hero() {
                 </Button>
 
                 <Button 
-                  href="https://discord.gg/vSajqg6ChK"
-                  target="_blank"
+                  href="/whitelist"
                   variant="secondary"
                   size="lg"
-                  className="w-full sm:w-auto min-w-[160px] shrink-0"
-                  icon={<div className="w-6 h-6 text-white"><DiscordIcon /></div>}
+                  className="w-full sm:w-auto min-w-[180px] shrink-0"
+                  icon={<FileText size={20} className="text-white" />}
                   iconPosition="after"
                 >
-                  Join the Discord
+                  Apply to Join
                 </Button>
 
               </div>
