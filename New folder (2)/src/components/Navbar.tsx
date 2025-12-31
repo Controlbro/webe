@@ -22,7 +22,7 @@ export default function Navbar() {
 
   const menuLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Map', href: 'http://185.213.243.143:25610' },
+    { name: 'Map', href: 'http://208.84.101.72:25585' },
     { name: 'Rules', href: '/rules' },
     { name: 'Store', href: '/store' },
     { name: 'Staff', href: '/staff' },
