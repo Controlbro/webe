@@ -28,20 +28,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center w-full">
           
           <div className="md:col-span-7 flex flex-col items-center md:items-start text-center md:text-left space-y-6 lg:space-y-8 order-1">
-            
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 rounded-full text-orange-700 font-bold text-sm tracking-wide transform -rotate-1 hover:rotate-0 transition-transform cursor-default border border-orange-200">
-              <span>🚀</span>
-              <span>SEASON 2 IS LIVE!</span>
-            </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-navy leading-[0.9]">
               TBF<span className="text-transparent bg-clip-text bg-gradient-to-br from-[#F59E0B] to-orange-600">MC</span>
               <br />
-              <span className="text-4xl md:text-5xl text-navy-light opacity-80">Vanilla Survival</span>
+              <span className="text-4xl md:text-5xl text-navy-light opacity-80">Semi-Vanilla Survival</span>
             </h1>
 
             <p className="text-lg text-slate-600 w-full md:max-w-xl font-sans font-medium leading-relaxed">
-              Experience a vanilla survival world with a friendly community.
+              Experience a semi-vanilla survival world with a friendly community.
               <span className="font-bold text-navy"> Join the adventure now!</span>
             </p>
 
