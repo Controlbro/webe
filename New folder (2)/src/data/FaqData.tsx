@@ -12,14 +12,14 @@ export const faqData: FaqItem[] = [
     asker: "Steve",
     question: "How do I claim land to protect my builds?",
     responder: "Agnes",
-    answer: "It's simple! You can use /chunk for more info."
+    answer: "We use Towny to protect builds, you can do /towny help to get more information."
   },
   {
     id: 2,
     asker: "Alex",
     question: "Is griefing allowed on the server?",
     responder: "Jeb_",
-    answer: "On Survival, griefing is strictly prohibited"
+    answer: "Griefing is strictly prohibited"
   },
   {
     id: 6,
