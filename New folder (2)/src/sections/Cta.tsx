@@ -64,13 +64,13 @@ export default function Cta() {
 
             {/* DESCRIPTION */}
             <p className="text-slate-500 font-sans text-lg max-w-lg mx-auto mb-10 leading-relaxed">
-                Join TBFMC today and experience Minecraft Vanilla survival like never before.
+                Join TBFMC today and experience Minecraft Semi-Vanilla survival like never before.
                 Build, trade, and conquer in a world without limits.
             </p>
 
             {/* GET STARTED BUTTON */}
             <a 
-                href="https://mc.tbfmc.com" 
+                href="https://discord.com/invite/vSajqg6ChK" 
                 className="group relative flex w-full max-w-2xl mx-auto items-center justify-between gap-5 overflow-hidden rounded-2xl px-8 py-6 sm:px-12 sm:py-8 bg-gradient-to-br from-[#FFEDE3] to-[#FFEBCC] hover:ring-4 hover:ring-orange-100 transition-all duration-300 shadow-xl shadow-orange-100/50"
             >
                 {/* Text */}
