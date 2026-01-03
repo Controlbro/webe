@@ -23,8 +23,8 @@ const features = [
   },
   {
     icon: Users,
-    title: 'Whitelisted',
-    description: 'Worry not about trolls and griefers; we aim to add only the most eligible players for the best possible experience.',
+    title: 'Custom Plugins',
+    description: 'Our custom plugins allow us to create the perfect user experience.',
     image: feature4,
     color: "text-orange-600",
     gradient: "from-orange-200 to-orange-100"
